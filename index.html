@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تحية لصديق</title>
+</head>
+<body>
+<script type="text/javascript">
+// تحقق مما إذا كان المستخدم يفتح الرابط من واتساب
+if (navigator.userAgent.toLowerCase().indexOf("whatsapp") > -1) {
+  document.body.innerHTML = "<p>كيف حالك يا صديقي؟</p>";
+} else {
+  document.body.innerHTML = "<p>هذه الصفحة مخصصة للفتح من خلال الواتساب.</p>";
+}
+</script>
+</body>
+</html>
